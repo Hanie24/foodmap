@@ -1,0 +1,27 @@
+body{
+    background-color: #494546;
+}
+#searcher {
+    width: 90%;
+    color: #ffffff;
+}
+.splash {
+    padding-top: 50%;
+    text-align: center;
+}
+.title {
+    text-align: center;
+}
+.cerca {
+    padding-bottom: 2%;
+    text-align: center;
+}
+.searcher {
+    margin-left: 10%;
+    margin-top: -7%;
+}
+/*.images {
+    margin-top: -3%;
+    height: 10%;
+}*/
+

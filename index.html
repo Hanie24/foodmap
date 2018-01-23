@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FOODMAP</title>
+    <link rel="stylesheet" href="css/main.css">
+    <script
+    src="https://code.jquery.com/jquery-3.3.1.min.js"
+    integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+    crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<body>
+    <div class="content">
+        <div class="row splash">
+            <div class="grid-example col s12 blue-text accent-2">
+                <h1 class="flow-text">Foodmap</h1>
+            </div>
+        </div>
+    </div>
+    <section class="content principal">
+        <div class="row mapa"> 
+            <div class="blue-text accent-2 blue-text accent-2 title">
+                <h2 >Foodmap</h2>
+                <iframe class="grid-example col s12" src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d3761.6732500269663!2d-99.18417861615235!3d19.469649678469587!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses-419!2smx!4v1516500070305" width="1100" height="200" frameborder="0" style="border:0" allowfullscreen></iframe>
+            </div>
+        </div>
+        <div class="row">    
+            <div class="blue-text accent-2 blue-text accent-2 cerca">    
+                    <h4 >Comida cerca de ti</h4>
+            </div>
+            <div class="grid-example col s10">
+                <ul class="searcher">
+                    <li> <input  type= "text"  id = "searcher" placeholder="filtrar restaurantes"><i class="material-icons">search</i></li>          
+                </ul>
+            </div>
+        </div>
+        <div class="row">
+            <a class="waves-light modal-trigger" href="#modal1">
+                <img id="modal1" class="grid-example col s4 images img-responsive" src="assets/images/antojitos.jpg" width="70.88" alt="antojitos mexicanos">
+            </a>
+            <div id="modal1" class="modal">
+                <div class="modal-content">
+                    <h4>Las Comadres</h4>
+                    <p>A bunch of text</p>
+                </div>
+                <div class="modal-footer">
+                    <a href="#modal1" class="modal-action modal-close waves-effect waves-green btn-flat">Agree</a>
+                </div>
+            </div>
+            
+            <img class="grid-example col s4 images img-responsive" src="assets/images/corrida.jpg" alt="comida corrida">
+            <img class="grid-example col s4 images img-responsive" src="assets/images/hamburguesa.jpg" alt="hamburguesa">
+    
+        </div>
+    </section>
+    
+        
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+    <script src="js/data.js"></script>
+    <script src="js/app.js"></script>
+</body>
+</html>
